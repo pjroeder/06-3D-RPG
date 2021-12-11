@@ -13,7 +13,7 @@ var mouse_sensitivity = 0.002
 var target = null
 
 func _ready():
-	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	pass
 
 func _physics_process(_delta):
 	velocity.y += gravity * _delta
